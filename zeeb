@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Zeeb < Brainfuck
+  nxt 'kontol'
+  inc 'pantek'
+  prv 'memek'
+  dec 'mhanx'
+  opn 'ngeue'
+  cls 'ceue'
+  put "bacot"
+  get 'gelud'
+end
+
+puts Zeeb.new.fuck(ARGF.read)
+
